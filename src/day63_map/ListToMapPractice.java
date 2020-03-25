@@ -1,9 +1,6 @@
-package day63;
+package day63_map;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class ListToMapPractice {
 
@@ -36,7 +33,7 @@ public class ListToMapPractice {
 
         System.out.println("names = " + names);
 
-        Map<String, Integer> nameCharCountPair = new HashMap<>();
+        Map<String, Integer> nameCharCountPair = new LinkedHashMap<>();
         for (String eachMember : names) {
             nameCharCountPair.put(eachMember,eachMember.length());
         }

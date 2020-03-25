@@ -1,6 +1,6 @@
 package day47;
 
-// this is called concrete class
+// this is called
 // concrete class must provide body for all inherited abstract methods
 // or it will not even compile
 public class GasCar extends Car {

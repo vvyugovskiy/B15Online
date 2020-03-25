@@ -49,10 +49,10 @@ public class Exam_Part3 {
 //        Which two changes would encapsulate this class and ensure that the area field is always equal to length * height whenever the Rectangle class is used?
 
 //        Call the setArea method at the beginning of the setHeight method.
-//        Call the setArea method at the end of the setLength method.
+//        Call the setArea method at the end of the setLength method.       <<<====
 //        Call the setArea method at the beginning of the setLength method.
-//        Call the setArea method at the end of the setHeight method.      <<<====
-//        Change the setArea method to private.                            <<<====
+//        Call the setArea method at the end of the setHeight method.       <<<====
+//        Change the setArea method to private.
 
         //3.
 
@@ -83,10 +83,10 @@ public class Exam_Part3 {
 //            double salary;
 //
 //            public Employee() {
-//   // Line 1----------------------------------------------------
-//                name = "Joe";
-//                contract = true;                                 <<<===
-//                salary = 100.0f;
+//   // Line 1 ----------------------------------------------------
+//                this.name = new String("Joe");
+//                this.contract = new Boolean (true);                                 <<<===
+//                this.salary = new Double;
 //        -------------------------------------------------------------
 //            }
 //            public String toString() {
@@ -182,10 +182,10 @@ public class Exam_Part3 {
 //        }
 //  package p2;
 //  import p1.Acc;
-//        public class Test extends practice.OCA.p1.Acc {
+//        public class Test extends Acc {
 //            public static void main(String[] args) {
-//                p1.Acc obj = new p1.Acc();
-//            }                                                        ===>>>  Both r and s accessible by obj
+//                Acc obj = new Acc();
+//            }                                                        //===>>>  Only s accessible by obj
 
         //10.
 
