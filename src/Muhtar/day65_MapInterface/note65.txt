@@ -1,0 +1,60 @@
+Data structures:
+        -Arrays
+        -Collections framework
+        -Map
+
+Map Interface: accepts key and value, both does not support primitives.
+               Key cannot be duplicated, byt value can
+
+        MAP DOES NOT ACCEPT  DUPLICATED KEYS BUT ACCEPTS VALUES
+
+        Set<Values>
+        Map<Key,Value>
+
+        implemented by HasMap(C), LinkedHashMap(C), HashTable(C)
+
+        extended by SortedMap(I)
+
+        SortedMap(I) is implemented by TreeMap(C)
+
+        Map<Key,Value> map1 = new HashMap<>();
+        Map<Key,Value> map2 = new LinkedHashMap<>();
+        Map<Key,Value> map3 = new HashTable<>();
+        Map<Key,Value> map4 = new TreeMap<>();
+
+        SortedMap<Key,Value> map5 = new TreeMap<>();
+
+Map Interface :
+        put(key, value): inserts key/value objects to the Map
+
+        get(key): retrieves the value of the given key
+                  returns null if we don't have this key in the Map
+
+        remove(key): removes the given key and it's value from the Map
+
+        size(): returns the size of the Map
+
+        containsKey(key):  verifies if this key is exist in the Map
+                           returns boolean
+        containsValue(value):  verifies if this value is exist in the Map
+                               returns boolean
+
+        keySet(): returns all the keys as Set Interface
+
+        clear(): removes everything, size will become 0
+
+
+HashMap(C): does not keep the insertion order
+
+LinkedHashMap(C): keeps the insertion order
+                  doubly linked: put() & remove() are faster than HashMap
+                                 get() is slower than HashMap
+
+Hashtable(C): key and values CAN NOT be null==>> throws a NullPointException
+              no null allowed
+              Is Synchronised ==>> will lead to Thread-Safety
+              very slow
+
+TreeMap(C): implementing SortedMap
+            sorts the key in ascending order
+
