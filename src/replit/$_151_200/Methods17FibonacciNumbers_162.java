@@ -18,15 +18,18 @@ public class Methods17FibonacciNumbers_162 {
         int result = 0;
         if (num==0){
             result=0;
+            System.out.print(result);
         }
         if (num==1){
             result=1;
+            System.out.print(result);
         }
         for (int i=2;i<=num;i++){
             result=num1+num2;
             num1=num2;
             num2=result;
+            System.out.print(result+ " ");
         }
-        System.out.println(result);
+//        System.out.println(result);
     }
 }

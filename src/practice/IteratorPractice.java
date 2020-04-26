@@ -61,8 +61,8 @@ public class IteratorPractice {
 
         String[] students = {"Rauf", "Parvin", "Maxim", "Irina", "Abu-Ibn-Hasan", "Prairies", "Papandopala"};
 
-        List<String> nameList = new ArrayList<>();
-        nameList.addAll(Arrays.asList(students));
+        List<String> nameList = new ArrayList<>(Arrays.asList(students));
+//        nameList.addAll(Arrays.asList(students));
         for (Iterator<String> itr = nameList.iterator(); itr.hasNext(); ){
             String str = itr.next();
             if (str.equals("Papandopala") || str.equals("Maxim")){
