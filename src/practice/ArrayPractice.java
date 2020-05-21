@@ -86,5 +86,6 @@ public class ArrayPractice {
         }
         System.out.println("After reverse the ArrayList " + list);
     }
+
 }
 

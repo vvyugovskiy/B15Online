@@ -17,9 +17,9 @@ public class PalindromeTest {
         // make this code does not care about spaces
 
         if (name1.equalsIgnoreCase(reversedName)) {
-            System.out.println("Palindrom Test Has Passet");
+            System.out.println("Palindrome Test Has Passet");
         }else{
-            System.out.println("Palindrom Has Failed");
+            System.out.println("Palindrome Has Failed");
         }
 
         System.out.println(name);

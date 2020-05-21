@@ -18,6 +18,7 @@ public class stringInterning {
         int s1 = Integer.parseInt(s);
         System.out.println("s1 = " + s1);
 
+
         String n = "Hello im 12th in line";
         n=n.replaceAll("[a-zA-Z]","").trim(); // replaces all letters with "" but lives spaces
         int n1 = Integer.parseInt(n); // turn String 12 into int 12

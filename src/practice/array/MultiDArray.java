@@ -25,6 +25,38 @@ public class MultiDArray {
 //                System.out.println();
 //            }
         }
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+        int[] arr = {6, 5, 3, 1, 8, 7, 2, 4};
 
+        int maxOne = 6;
+        int maxTwo = 5;
+
+        for (int each : arr) {
+            if (each > maxOne) {
+                maxTwo = maxOne;
+                maxOne = each;
+            } else if (each > maxTwo) {
+                maxTwo = each;
+            }
+        }
+        System.out.println("maxOne | " + maxOne);
+        System.out.println("maxTwo | " + maxTwo);
+
+
+        int[] arr1 = {-6, -5, 3, 1, 8, -7, 2, -4};
+
+        int minOne = 0;
+        int minTwo = 0;
+
+        for (int each : arr1) {
+            if (each < minOne) {
+                minTwo = minOne;
+                minOne = each;
+            } else if (each < minTwo) {
+                minTwo = each;
+            }
+        }
+        System.out.println("minOne | " + minOne);
+        System.out.println("minTwo | " + minTwo);
     }
- }
+}

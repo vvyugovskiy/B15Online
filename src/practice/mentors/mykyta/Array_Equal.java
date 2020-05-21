@@ -1,5 +1,9 @@
 package practice.mentors.mykyta;
 
+import java.util.Arrays;
+import java.util.Set;
+import java.util.TreeSet;
+
 public class Array_Equal {
     public static void main(String[] args) {
 
@@ -28,5 +32,16 @@ public class Array_Equal {
                 }
             }
             System.out.println(checkIfarraysEqual);
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++");
+
+        String name = "aaabbbccffff";
+        String []spltName  = name.split("");
+        System.out.println(Arrays.toString(spltName));
+        Set<String> nonDup = new TreeSet<>(Arrays.asList(spltName));
+        System.out.println(nonDup);
     }
+
+
+
+
 }
