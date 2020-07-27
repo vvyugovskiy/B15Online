@@ -215,5 +215,7 @@ public class StringMethods {
         String m3 = m1.replace("apple", "love");
         System.out.println(m3); // All we need is love!
         // if not found, it will be just ignored
+
     }
+
 }

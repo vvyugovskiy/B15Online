@@ -12,6 +12,7 @@ public class IteratorPractice {
         list1.addAll(Arrays.asList(1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 1, 1, 1, 1));
         // TASK 1:  We want to remove all elements equal to 1 from ArrayList
 
+//        list1.removeIf(n -> n==1);
         Iterator<Integer> it1 = list1.iterator();
         while (it1.hasNext()) {
             int num = it1.next();

@@ -9,7 +9,6 @@ public class ComparatorPractice {
 
     public static void main(String[] args) {
 
-
 //        Comparator<String> lastCharCom
 ////                = (o1, o2) -> o1.substring(o1.length() - 1).compareTo(o2.substring(o2.length() - 1))
 //                = Comparator.comparing(str -> str.substring(2,3)) // sort by 3rd letter

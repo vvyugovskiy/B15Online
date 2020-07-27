@@ -14,8 +14,8 @@ public class practice {
         String a = "interned String";
         String b = new String ("interned String");
         String c = b.intern();
-        System.out.println(a==c); //==>
-        System.out.println(a==b); //==>
+        System.out.println(a==c); //==> true
+        System.out.println(a==b); //==> false
 //--------------------------------------------------------------------------------------------
         String s = "age: 47 ";
         s=s.replaceAll("\\D+","");  // ==> String 47

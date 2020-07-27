@@ -1,7 +1,5 @@
 package office_hours.Practice_2020_02_06;
 
-import day43.StarbuckUtil;
-
 public abstract class States {
 
     String statesName;

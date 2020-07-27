@@ -8,39 +8,35 @@ import java.util.Scanner;
  */
 
 public class PrimeNumber {
-    public static void main(String args[]) {
 
-        Scanner inp = new Scanner(System.in);
+        public static void main(String args[]) {
 
+        Scanner num = new Scanner(System.in);
         System.out.print("In:");
+        int max = num.nextInt();
 
-        double max = inp.nextDouble();
+        printAllPrimes(max);
 
-        //write your code below
-        System.out.println();
-        int temp;
-        boolean isPrime = true;
-        if (max == 0 || max == 1) {
-            isPrime = false;
-        } else {
-            for (int i = 2; i <= max / 2; i++) {
-                temp = (int) max % i;
-                if (temp == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-        }
-        if (isPrime) {
-            System.out.println("prime");
-        } else {
-            System.out.println("not prime");
-
-        }
     }
 
-//    public static boolean prime(int number) {
-//
-//        return
-//    }
+    public static boolean prime(int number) {
+        boolean returnValue = true;
+        for (int i = 2; i <= number / 2; i++) {
+            if (number % i == 0) {  // check if divisible by any other numbers
+                returnValue = false;
+                break;
+
+            }
+        }
+        return returnValue;
+    }
+
+    public static void printAllPrimes (int number){
+
+        for (int i=2; i<=number; i++){
+            if (prime(i)){
+                System.out.print(i+" | ");
+            }
+        }
+    }
 }

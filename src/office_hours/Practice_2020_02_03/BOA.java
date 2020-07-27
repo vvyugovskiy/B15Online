@@ -1,7 +1,5 @@
 package office_hours.Practice_2020_02_03;
 
-import day49.Tesla;
-
 public class BOA {
 
     public static void main(String[] args) {

@@ -32,11 +32,11 @@ public class ArrayPractice {
         int[] num = new int[]{45, 2, 3, 7, 8, 90, 2};
         System.out.println("Before sorting the Array " + Arrays.toString(num));
         for (int i = 0; i < num.length; i++) {
-            for (int j = i + 1; j < num.length; j++) {
-                if (num[i] > num[j]) {
-                    int temp1 = num[i];
-                    num[i] = num[j];
-                    num[j] = temp1;
+            for (int j =0; j < num.length-1-i; j++) {
+                if (num[j] > num[j+1]) {
+                    int temp1 = num[j];
+                    num[j] = num[j+1];
+                    num[j+1] = temp1;
                 }
             }
         }

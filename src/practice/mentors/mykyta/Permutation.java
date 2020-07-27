@@ -41,7 +41,6 @@ public class Permutation {
                     }
                 }
             }
-
         } else {
 
             System.out.println("Invalid input");
@@ -50,7 +49,7 @@ public class Permutation {
 
     public static void main(String[] args) {
 
-        int[] nums = new int[]{1, 2, 3};
+        int[] nums = new int[]{3, 5, 7};
         allPermutationsForthreeNums(nums);
 
     }

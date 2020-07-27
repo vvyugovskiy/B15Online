@@ -34,7 +34,7 @@ public class ScrumTeamEmployee {
         System.out.println("Hello World");
 
         int i = 9;
-        String word = "Java";
+        String word = "Cybertek";
 
 //        int number;
 //        System.out.println(number); // DOES not compile, need to be declared

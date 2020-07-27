@@ -15,8 +15,10 @@ public class ArraysConvertDecimalToBinary_133 {
         for (int x = 7; x >= 0; x--) {
             binary[x] = decimal % 2;
             decimal /= 2;
+            System.out.println(decimal);
+            System.out.println(Arrays.toString(binary));
+
         }
-        System.out.println(Arrays.toString(binary));
 
 //        WAY 2:
 //        int i=0;

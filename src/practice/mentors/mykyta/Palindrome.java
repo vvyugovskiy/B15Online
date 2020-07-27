@@ -16,7 +16,6 @@ public class Palindrome {
             0 1 2 3 4
     Output: "bab"
      */
-
     public static String longestPalindrome (String s){
         String result = "";
         s=s.replace(" ","");
@@ -34,6 +33,9 @@ public class Palindrome {
     }
 
     public static void main(String[] args) {
+
+        System.out.println(checkIfPalindrome("dabad"));
+
         System.out.println(longestPalindrome("babda"));
     }
 }
