@@ -3,7 +3,6 @@ package practice.DataStructuresAndAlgorithms.A_SortAlgorithms;
 public class G_QuickSort {
 
     /*
-
     -Divide and conquer algorithm
     -Recursive algorithm
     -Uses a pivot element to partition the array into two parts
@@ -16,18 +15,13 @@ public class G_QuickSort {
     -Unstable algorithm
 
      */
-
     public static void main(String[] args) {
-
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};
-
         quickSort(intArray,0,intArray.length);
-
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
         }
     }
-
     public static void  quickSort (int [] input, int start, int end){
         if (end - start < 2){
             return;
@@ -36,7 +30,6 @@ public class G_QuickSort {
         quickSort(input,start,pivotIndex);
         quickSort(input,pivotIndex+1,end);
     }
-
     public static int partition (int [] input, int start, int end){
         // this is using the first element as the pivot
         int pivot = input[start];
@@ -55,7 +48,6 @@ public class G_QuickSort {
                 input[j]=input[i];
             }
         }
-
         input[j]=pivot;
         return j;
     }

@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.C_Stack;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 import java.util.EmptyStackException;
 
 public class ArrayStack {
@@ -8,6 +10,7 @@ public class ArrayStack {
     public ArrayStack (int capacity){
         stack = new Employee[capacity];
     }
+
     public void push (Employee employee){
         if (top==stack.length){
             //need to resize the backing array
@@ -17,7 +20,7 @@ public class ArrayStack {
         }
         stack[top++] = employee;
     }
-    public Employee pop (){
+    public Employee pop (){  // O(1)
         if (isEmpty()){
             throw new EmptyStackException();
         }

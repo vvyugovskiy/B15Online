@@ -10,6 +10,7 @@ public class PalindromeTest {
         String name = " Marge let a moody baby doom a telegram.";
         String reversedName = "";
         String name1 = name.toLowerCase().replaceAll("\\W","");
+        System.out.println(name1);
         for (int x = name1.length() - 1; x >= 0; x--) {
             reversedName += name1.charAt(x);
         }

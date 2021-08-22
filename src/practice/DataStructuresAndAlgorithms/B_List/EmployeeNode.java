@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.B_List;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 public class EmployeeNode {
     private Employee employee;
     private EmployeeNode next;

@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.B_List;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 public class C_SinglyLinkedList {
     /*
     Each item in the list is called a node

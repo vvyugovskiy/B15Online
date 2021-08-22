@@ -40,7 +40,7 @@ public class Pet {
 
         // System.out.println(name);
         // this will not work
-        // Static Method can not access anything not-Static
+        // Static Method can not access anything non-Static
     }
 
     public String getType() { return type; }

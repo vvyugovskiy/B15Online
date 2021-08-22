@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.B_List;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 

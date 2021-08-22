@@ -1,4 +1,4 @@
-package practice.DataStructuresAndAlgorithms.C_Stack;
+package practice.DataStructuresAndAlgorithms;
 
 import java.util.Objects;
 

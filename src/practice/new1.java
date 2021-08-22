@@ -23,25 +23,16 @@ public class new1 {
         }
         return max;
     }
-
     public static  int shapeArea(int n) {
 
         return (n*n) + (n-1)*(n-1);
     }
 
     public static int makeArrayConsecutive2(int[] statues) {
-//            int number = 0;
-//            Arrays.sort(statues);
-//            for (int i =0; i < statues.length-1; i++){
-//                if(statues[i+1]-statues[i]==1){
-//                    continue;
-//                }else {
-//                    number += statues[i+1]-statues[i]-1;
-//                }
-//            }
-//            return number;
+
         Arrays.sort(statues);
         int number = statues[statues.length-1]-statues[0];
         return number - statues.length+1;
     }
+
 }

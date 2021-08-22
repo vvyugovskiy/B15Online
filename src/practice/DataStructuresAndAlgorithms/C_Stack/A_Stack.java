@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.C_Stack;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 public class A_Stack {
     /*
     Abstract data type
@@ -23,7 +25,10 @@ public class A_Stack {
         stack.push(new Employee("Bill","End",78));
 //        stack.printStack();
         System.out.println(stack.peek());
-
+        System.out.println(stack.pop());
+        System.out.println("------------------------------------------");
+        stack.printStack();
+        System.out.println(stack.peek());
 
 
     }

@@ -61,8 +61,8 @@ public class ArrayPractice {
         }
         System.out.println("After reverse the array " + Arrays.toString(arr1));
 
-        //how to reverse the array using swaping number with temp variable
-        //how to sort ArrayList swaping the numbers  ***  Collections.sort(lst);
+        //how to reverse the array using swapping number with temp variable
+        //how to sort ArrayList swapping the numbers  ***  Collections.sort(lst);
         ArrayList<Integer> lst = new ArrayList<>(Arrays.asList(34, 2, 5, 6, 78, 98, 21, 100, 5, 4, 1));
         System.out.println("Before sorting the ArrayList" + lst);
         for (int i = 0; i < lst.size(); i++) {

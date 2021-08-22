@@ -1,5 +1,7 @@
 package practice.DataStructuresAndAlgorithms.B_List;
 
+import practice.DataStructuresAndAlgorithms.Employee;
+
 public class EmployeeSinglyLinkedList {
     private EmployeeNode head;
     private int size;

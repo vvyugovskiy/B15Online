@@ -17,15 +17,14 @@ public class ShoppingList2_094 {
             price = scan.nextDouble();
             System.out.println("Add one more item?");
             countinue = scan.next();
-            if (countinue.equalsIgnoreCase("yes") && count < 10) {
+            if (countinue.equalsIgnoreCase("yes") && count <3) {
                 shoppingListReport += "Item" + count + ": " + item + " Price: " + price + ", ";
             } else {
                 shoppingListReport += "Item" + count + ": " + item + " Price: " + price;
             }
             totalProce += price;
-
             count++;
-        } while (countinue.equalsIgnoreCase("yes") && count <= 10);
+        } while (countinue.equalsIgnoreCase("yes") && count <= 3);
         System.out.println(shoppingListReport);
         System.out.println("Total price: " + totalProce);
     }

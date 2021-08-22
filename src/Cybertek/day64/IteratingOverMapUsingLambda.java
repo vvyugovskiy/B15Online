@@ -13,7 +13,6 @@ public class IteratingOverMapUsingLambda {
         groceryPriceMap.put("Banana", 1.99);
         groceryPriceMap.put("Apple", 1.89);
 
-
         //groceryPriceMap.forEach(name ->);
     }
 }

@@ -7,7 +7,7 @@ public class MAX_SecondMax_MIN_AVG_SUMODDEVENS {
         int max, secondMax;
 
         if (array_size < 2) {
-            System.out.println("Size of array should be more than 0");
+            System.out.println("Size of array should be more than 1");
         } else {
             max = secondMax = Integer.MIN_VALUE;
 
